@@ -1,1 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#busList {
+    display: grid;
+    gap: 15px;
+}
+
+.bus-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
