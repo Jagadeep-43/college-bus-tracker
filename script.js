@@ -1,6 +1,8 @@
 function displayBuses(busArray) {
     const busList = document.getElementById("busList");
     busList.innerHTML = "";
+    document.getElementById("busCount").textContent =
+    busArray.length + " Buses Available";
 
     if (busArray.length === 0) {
         busList.innerHTML = "<p>No buses found.</p>";
