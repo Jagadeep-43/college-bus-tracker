@@ -37,4 +37,4 @@ function searchBus() {
 }
 
 // Show all buses when the page loads
-displayBuses(buses);
+displayBuses([]);
