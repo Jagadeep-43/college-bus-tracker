@@ -20,9 +20,14 @@
 
     <p>This website contains all 56 KIOT bus routes and timings.</p>
 
-    <div id="busList">
-        <!-- Bus details will be added here -->
-    </div>
+    <input
+    type="text"
+    id="searchBox"
+    placeholder="🔍 Search by Route Number or Bus Stop"
+    onkeyup="searchBus()"
+>
+
+<div id="busList"></div>
 </main>
 
 <script src="script.js"></script>
