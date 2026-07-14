@@ -1,4 +1,4 @@
-const buses = [
+
 const buses = [
 {
     number: "01",
